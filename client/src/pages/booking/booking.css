@@ -1,0 +1,82 @@
+.booking {
+  margin-top: 24px;
+  width: 71%;
+  padding: 24px;
+}
+
+.booking-date {
+  width: 100%;
+}
+
+.booking-date div {
+  width: 96%;
+}
+
+.booking-form {
+  gap: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info-booking > form {
+  font-size: 18px;
+  margin-top: 15px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-booking > form > div > input {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height: 32px;
+}
+
+.select-room {
+  margin: 18px 0;
+  gap: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.check-form {
+  border-bottom: 1px solid rgb(245, 234, 214);
+  margin: 8px 0;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 5fr 2fr;
+}
+
+.check-form > div > p {
+  margin: 4px 0;
+  font-size: 18px;
+}
+.check-form > div > b {
+  font-size: 20px;
+}
+
+.check-room label {
+  margin: 0 8px;
+  display: inline-block;
+}
+
+.check-room label input {
+  margin-left: 6px;
+}
+
+.total-bill {
+  margin-top: 18px;
+  display: flex;
+  gap: 44px;
+}
+
+.total-bill > button {
+  border: none;
+  color: aliceblue;
+  background-color: #0071c2;
+  border-radius: 5px;
+  padding: 14px 34px;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.log-in-page {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.log-in-page h1 {
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.log-in-page input {
+  margin-bottom: 15px;
+  height: 2rem;
+}
+
+.log-in-page button {
+  background-color: #0071c2;
+  color: white;
+  height: 2rem;
+  border-radius: 2px;
+  border: none;
+  font-size: 1rem;
+}
